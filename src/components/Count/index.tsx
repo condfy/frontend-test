@@ -15,7 +15,7 @@ function Count() {
     <>
       <h2>Contador de cliques</h2>
       <div>
-        <button onClick={increment}>
+        <button onClick={increment()}>
           {`Cliques: ${count}`}
         </button>
       </div>
