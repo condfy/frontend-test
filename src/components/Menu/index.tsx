@@ -15,8 +15,8 @@ function Menu({active, setActive}: MenuProps) {
           {activities.map((item) => (
           <li key={item.id}>
             <button
-            className={`${active === item?.id ? "bg-blue-500" : "hover:bg-gray-700"}`}
-            onClick={() => setActive(item?.id)}
+              className={`${active === item?.id ? "bg-blue-500" : "hover:bg-gray-700"}`}
+              onClick={() => setActive(item?.id)}
             >
               {item.name}
             </button>
